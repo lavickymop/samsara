@@ -7,4 +7,4 @@ me contacter.
 Nous avons trois fonctionnalités à développer:
 * Formulaire 3 questions
 * Connexion au compte utilisateur
-* Menu radial : Visualisation des données, JEux de couleurs selon l'étape du cycle. 
+* Menu radial : Visualisation des données, Jeux de couleurs selon l'étape du cycle. 
