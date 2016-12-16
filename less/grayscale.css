@@ -149,6 +149,19 @@ a:focus {
     font-size: 26px;
   }
 }
+/*-----Page index-modale------*/
+.modal-content {
+  background-color: rgba(167, 219, 209, 0.68);
+  text-align: justify;
+}
+.modal-content p,
+.modal-content li {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+.modal-footer p {
+  font-size: 1em;
+}
 /*-----Page connexion1------*/
 .pgconnexion {
   background-color: #fff;
@@ -185,6 +198,9 @@ a:focus {
 .pgcalinit .intro-body {
   @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
   color: #86DBCB;
+}
+.pgcalinit .intro-body canvas {
+  background: url("../img/samsara_fleur1-clean.png") center no-repeat;
 }
 .pgcalinit .intro-body .brand-heading {
   color: #86DBCB;
@@ -299,10 +315,69 @@ a:focus {
 .pgjourdet .intro-body i {
   font-size: 30px;
 }
+.pgjourdet .body-section {
+  color: #86dbcb;
+}
 .pgjourdet .body-section p {
   color: #86dbcb;
   border: 3px solid #86dbcb;
   padding: 20px;
+}
+.pgjourdet .body-section .date-picker,
+.pgjourdet .body-section .date-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.pgjourdet .body-section .date-container {
+  padding: 0px 40px;
+  margin-bottom: 30px;
+}
+.pgjourdet .body-section .date-picker h2,
+.pgjourdet .body-section .date-picker h4 {
+  margin: 0.5px;
+  padding: 0px;
+  font-weight: 200;
+}
+.pgjourdet .body-section .date-container .date {
+  text-align: center;
+}
+.pgjourdet .body-section .date-picker span.fa {
+  position: absolute;
+  font-size: 4em;
+  font-weight: 100;
+  padding: 8px 0px 7px;
+  cursor: pointer;
+  top: 0px;
+}
+.pgjourdet .body-section .date-picker span.fa[data-type="subtract"] {
+  left: 50px;
+}
+.pgjourdet .body-section .date-picker span.fa[data-type="add"] {
+  right: 50px;
+}
+.pgjourdet .body-section .date-picker span[data-toggle="calendar"] {
+  display: block;
+  position: absolute;
+  top: -7px;
+  right: 105px;
+  font-size: 1em !important;
+  cursor: pointer;
+}
+.pgjourdet .body-section .date-picker .input-datepicker {
+  display: none;
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  width: 100%;
+}
+.pgjourdet .body-section .date-picker .input-datepicker.show-input {
+  display: table;
 }
 .btn-circle {
   width: 70px;
