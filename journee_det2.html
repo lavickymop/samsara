@@ -2,44 +2,60 @@
 <html lang="en">
 
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+
     <title>Samsara-Application mobile-Prototype 1-cal_init</title>
+
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
     <!-- Theme CSS -->
     <link href="less/grayscale.css" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" class="pgjourdet">
+
     <!-- Intro Header -->
     <header class="intro pgjourdet">
         <div class="intro-body ">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-2"> <a href="cal_init.html"><i class="fa fa-spinner" aria-hidden="true"></i></a> </div>
-                    <div class="col-xs-8"> <a href="index.html"><h1 class="brand-heading">Samsara</h1></a> </div>
-                    <div class="col-xs-2"> <i class="fa fa-cog" aria-hidden="true"></i> </div>
+                    <div class="col-xs-2">
+                        <a href="cal_init.html"><i class="fa fa-spinner" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="col-xs-8">
+                        <a href="index.html"><h1 class="brand-heading">Samsara</h1></a>
+                    </div>
+                    <div class="col-xs-2">
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
+
     <section class="body-section">
         <div class="container text-center">
             <div class="row">
+
                 <div class="date-picker" data-date="2014/09/02" data-keyboard="true">
                     <div class="date-container text-center">
                         <h4 class="weekday">Lundi</h4>
@@ -57,31 +73,59 @@
                     <span data-toggle="calendar" class="fa fa-calendar"></span>
                 </div>
             </div>
+
             <div class="row">
+
                 <form class="col-xs-6 col-xs-offset-3">
                     <div class="form-group">
-                        <input type="text" id="journee" name="journee" class="form-control jour" placeholder="Jour du cycle!"> </div>
-                    <div class="form-group">
-                        <select id="emotion" name="emotion" class="form-control">
-                            <option value="">Avez-vous vos règles aujourd'hui?</option>
-                            <option class="oui" value="1">oui</option>
-                            <option class="non" value="0">non</option>
-
+                        <select id="journee" name="journee" class="form-control">
+                            <option>Journée 1</option>
+                            <option>Journée 2</option>
+                            <option>Journée 3</option>
+                            <option>Journée 4</option>
+                            <option>Journée 5</option>
+                            <option>Journée 6</option>
+                            <option>Journée 7</option>
+                            <option>Journée 8</option>
                         </select>
                     </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <input type="button" href="cal_init.html" class="btn btn-default btn-lg btn-ajouter" value="Sauvegarder">
-                        </div>
+                    <div class="form-group">
+
+                        <select id="emotion" name="emotion" class="form-control">
+                            <option></option>
+                            <option>Hereuse</option>
+                            <option>Triste</option>s
+                            <option>Fatiguée</option>
+                            <option>Correct</option>
+                        </select>
                     </div>
                 </form>
             </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <a href="cal_init.html" class="btn btn-default btn-lg">Sauvegarder</a>
+                </div>
+            </div>
         </div>
     </section>
-  
+
+
+
+
+
+
+    <!--     Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Your Website 2016</p>
+        </div>
+    </footer>
+
+
+
     <!-- jQuery -->
-    <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
     <script src="vendor/jquery/jquery.js"></script>
+
     <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
@@ -90,15 +134,19 @@
 
     <!--  Calendar script- Moment.js-->
     <script src="js/laura.js"></script>
-
+    
     <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
 
-    <!-- Connexion avec cycle-Page cal-init-->
-    <script src="js/circle.js"></script>
-
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
     <!-- Theme JavaScript -->
-    <!--    <script src="js/grayscale.min.js"></script>-->
+    <script src="js/grayscale.min.js"></script>
+
+
+
+
+
 </body>
 
 </html>

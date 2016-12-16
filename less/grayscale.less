@@ -160,6 +160,23 @@ a {
 }
 
 
+/*-----Page index-modale------*/
+
+.modal-content {
+    background-color: rgba(167, 219, 209, 0.68);
+    text-align: justify;
+    p,
+    li {
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 1em;
+    }
+}
+
+.modal-footer p {
+    font-size: 1em;
+}
+
+
 /*-----Page connexion1------*/
 
 .pgconnexion {
@@ -205,6 +222,9 @@ a {
     background-color: #fff;
     .intro-body {
         color: #86DBCB;
+        canvas {
+            background: url("../img/samsara_fleur1-clean.png")center no-repeat;
+        }
         .brand-heading {
             color: #86DBCB;
         }
@@ -213,7 +233,6 @@ a {
         }
         .row {
             margin-bottom: 150px;
-       
         }
         @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
         .selector {
@@ -323,13 +342,71 @@ a {
         i {
             font-size: 30px;
         }
-      
     }
     .body-section {
         p {
             color: @primary;
             border: 3px solid @primary;
             padding: 20px;
+        }
+        color: @primary;
+        .date-picker,
+        .date-container {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            //            color: rgb(75, 77, 78);
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        .date-container {
+            padding: 0px 40px;
+            margin-bottom: 30px;
+        }
+        .date-picker h2,
+        .date-picker h4 {
+            margin: 0.5px;
+            padding: 0px;
+            //            font-family: 'Roboto', sans-serif;
+            font-weight: 200;
+        }
+        .date-container .date {
+            text-align: center;
+        }
+        .date-picker span.fa {
+            position: absolute;
+            font-size: 4em;
+            font-weight: 100;
+            padding: 8px 0px 7px;
+            cursor: pointer;
+            top: 0px;
+        }
+        .date-picker span.fa[data-type="subtract"] {
+            left: 50px;
+        }
+        .date-picker span.fa[data-type="add"] {
+            right: 50px;
+        }
+        .date-picker span[data-toggle="calendar"] {
+            display: block;
+            position: absolute;
+            top: -7px;
+            right: 105px;
+            font-size: 1em !important;
+            cursor: pointer;
+        }
+        .date-picker .input-datepicker {
+            display: none;
+            position: absolute;
+            top: 50%;
+            margin-top: -17px;
+            width: 100%;
+        }
+        .date-picker .input-datepicker.show-input {
+            display: table;
         }
     }
 }
