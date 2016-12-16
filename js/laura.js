@@ -1,10 +1,12 @@
-//Script pour compte utilisateur 
+//Script pour Compte utilisateur 
 
-//alert("Hello World");
-//$(document).ready(function () {
-//    alert("Hello World");
-//});
+$(function(){
+    $('#submit').click(function(){
+        window.location='cal_init.html';
+    });
+});
 
+//J'ai fait Essai de connexion qui n'a pas marché. Je suis capable de voir le pourquoi je n'ai pas encore une fois le temps suffisant pour le complèter. Je vais le retrvailler pendant les vacances. Le tout sera visible via mon compte Github si jamais tu veux voir mon avancement.
 
 //function validate(e) {
 //    e.preventDefault();
@@ -15,14 +17,12 @@
 //    } else {
 //        alert("Désole, mot de passe incorrect.");
 //    }
-//
-//
 //}
 //
 //document.getElementById("login-form").addEventListener("submit", validate);
 
 
-//Script Calendrier- Page journée determinée.
+// Script Calendrier- Page journée determinée.
 // Bootsnipp source: http://bootsnipp.com/user/snippets/DqKm7
 
 

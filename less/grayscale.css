@@ -209,98 +209,7 @@ a:focus {
   font-size: 30px;
 }
 .pgcalinit .intro-body .row {
-  margin-bottom: 150px;
-}
-.pgcalinit .intro-body .selector {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 140px;
-  height: 140px;
-  margin-top: -70px;
-  margin-left: -70px;
-}
-.pgcalinit .intro-body .selector,
-.pgcalinit .intro-body .selector button {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 300;
-}
-.pgcalinit .intro-body .selector button {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  background: #86dbcb;
-  border-radius: 50%;
-  border: 0;
-  color: white;
-  font-size: 20px;
-  cursor: pointer;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
-  transition: all .1s;
-}
-.pgcalinit .intro-body .selector button:hover {
-  background: #baefe5;
-  color: #15cca9;
-}
-.pgcalinit .intro-body .selector button:focus {
-  outline: none;
-}
-.pgcalinit .intro-body .selector ul {
-  position: absolute;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  top: -20px;
-  right: -20px;
-  bottom: -20px;
-  left: -20px;
-}
-.pgcalinit .intro-body .selector li {
-  position: absolute;
-  width: 0;
-  height: 100%;
-  margin: 0 50%;
-  -webkit-transform: rotate(-360deg);
-  transition: all 0.8s ease-in-out;
-}
-.pgcalinit .intro-body .selector li input {
-  display: block;
-}
-.pgcalinit .intro-body .selector li input + label {
-  position: absolute;
-  left: 50%;
-  bottom: 100%;
-  width: 0;
-  height: 0;
-  line-height: 1px;
-  margin-left: 0;
-  background: #86DBCB;
-  border-radius: 50%;
-  text-align: center;
-  font-size: 1px;
-  overflow: hidden;
-  cursor: pointer;
-  box-shadow: none;
-  transition: all 0.8s ease-in-out, color 0.1s, background 0.1s;
-}
-.pgcalinit .intro-body .selector li input + label:hover {
-  background: #f0f0f0;
-}
-.pgcalinit .intro-body .selector li input:checked + label {
-  background: #5cb85c;
-  color: white;
-}
-.pgcalinit .intro-body .selector li input:checked + label:hover {
-  background: #449d44;
-}
-.pgcalinit .intro-body .selector.open li input + label {
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  margin-left: -40px;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
-  font-size: 14px;
+  margin-bottom: 50px;
 }
 /*-------Page Journée Détaillée-------*/
 .pgjourdet {
@@ -378,6 +287,12 @@ a:focus {
 }
 .pgjourdet .body-section .date-picker .input-datepicker.show-input {
   display: table;
+}
+.pgjourdet .body-section .question {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-bottom: 10px;
 }
 .btn-circle {
   width: 70px;
