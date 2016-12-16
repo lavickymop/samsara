@@ -4,9 +4,9 @@ Ce fichier à été crée pour être notre point de départ pour le developpemen
 
 Équipe Phase 2:
 
-*Laura Morales
-*Meddy Makanga
-*Simon-Olivier Baribeau Portelance 
+* Laura Morales
+* Meddy Makanga
+* Simon-Olivier Baribeau Portelance 
 
 # Samsara
 
