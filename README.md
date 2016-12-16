@@ -22,8 +22,8 @@ Samsara analyse le rapport entre la variation de température et les moments de 
 
 Pour que l’application fonctionne l’utilisatrice devra donc entrer deux données au moins une fois par jour. Elle devra donc répondre à deux questions en se levant le matin: 
 
-*Avez-vous vos règles ce matin?
-*Quelle est votre température corporelle ce matin?
+* Avez-vous vos règles ce matin?
+* Quelle est votre température corporelle ce matin?
 
 Ces données sont accumulées par le biais d’un formulaire et envoyé dans la base de données Samsara.
 
@@ -31,9 +31,9 @@ Il est primordiale de comprendre que Samsara a besoin de 3 à 5 semaines de donn
 
 Mode d’emploi
 
-1.Créer un compte Samsara
-2.Répondre aux deux questions à tous les matins
-3.Consulter la visualisation des données (peut prendre de 3 à 5 semaines selon la régularité)
+1. Créer un compte Samsara
+2. Répondre aux deux questions à tous les matins
+3. Consulter la visualisation des données (peut prendre de 3 à 5 semaines selon la régularité)
 
 
 
@@ -46,16 +46,3 @@ Mode d’emploi
 
 
 
-
-
-<<<<<<< HEAD
-=======
-Ce fichier à été crée pour notre référence et comme point de départ pour le developpement de la deuxième phase. 
-Veuillez- le cloner et ou créer des branches/forks pour travailler dessous. Si vous avez de questions hesitez-pas à 
-me contacter. 
-
-Nous avons trois fonctionnalités à développer:
-* Formulaire 3 questions
-* Connexion au compte utilisateur
-* Menu radial : Visualisation des données, Jeux de couleurs selon l'étape du cycle. 
->>>>>>> origin/master
